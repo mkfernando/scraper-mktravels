@@ -1,13 +1,13 @@
 {
-  name scraper-mktravels,
-  version 1.0.0,
-  description API de Scraping para MK Travels,
-  main index.js,
-  scripts {
-    start node index.js
+  "name": "scraper-mktravels",
+  "version": "1.0.0",
+  "description": "API de Scraping para MK Travels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
   },
-  dependencies {
-    express ^4.18.2,
-    puppeteer ^21.3.0
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.0"
   }
 }
